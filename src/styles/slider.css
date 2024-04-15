@@ -1,0 +1,32 @@
+.slider-carousel {
+    width: 100%; /* Set the Carousel width to 100% */
+}
+/* slider.css */
+/* Hide the previous and next text in the carousel */
+.carousel-control-prev,
+.carousel-control-next {
+    color: transparent;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+/* slider.css */
+/* Increase the width of the carousel indicators */
+/* .carousel-indicators {
+    width: auto;
+    
+} */
+/* Adjust the width of the active carousel indicator item */
+/* .carousel-indicators .active {
+    width: 2rem;
+}
+ */
+.carousel-indicators{
+    margin-bottom: 1rem;
+}
+.carousel-indicators> button{
+    width: 2rem;
+    height: 0.1rem;
+    border: none;
+    margin: 2px;
+}

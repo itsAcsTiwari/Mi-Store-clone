@@ -1,0 +1,25 @@
+.starProduct{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1vmax 4vmax;
+}
+
+.div1 img{
+    width: 550px;
+    height: 580px;
+}
+
+.div2{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.starProduct img{
+    transition: all 0.5s;
+}
+
+.starProduct img:hover{
+    box-shadow: 6px 6px 15px rgba(53, 53, 53, 0.363);
+}

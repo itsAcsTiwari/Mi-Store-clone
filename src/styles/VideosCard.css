@@ -1,0 +1,32 @@
+.VideosCard{
+    width: 27vmax;
+    height:70vh;
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0.7vmax;
+    cursor: pointer;
+}
+
+.VideosCard > a{
+    padding: 2.5vmax;
+    transition: all 0.5s;
+    border: none;
+    border-radius: 100%;
+    background-color: rgba(255, 255, 255, 0.096);
+}
+
+.VideosCard>a>svg{
+    fill: white;
+}
+ .VideosCard:hover a{    /* videosCard pe hover krne pe effect a tag pe hoga*/
+    background-color: rgba(240, 240, 240, 0.671);
+ }
+
+ .VideosCard p{
+    color: white;
+    margin: 1vmax;
+ }
